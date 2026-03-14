@@ -1,4 +1,9 @@
-from src.energy_tools import calculate_energy, calculate_cost
+import sys
+import os
+
+sys.path.append(os.path.abspath("src"))
+
+from energy_tools import calculate_energy, calculate_cost
 
 
 def test_calculate_energy():
