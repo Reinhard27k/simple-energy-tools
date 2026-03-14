@@ -1,0 +1,9 @@
+from src.energy_tools import calculate_energy, calculate_cost
+
+
+def test_calculate_energy():
+    assert calculate_energy(2, 5) == 10
+
+
+def test_calculate_cost():
+    assert calculate_cost(10, 0.3) == 3
